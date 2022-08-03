@@ -41,7 +41,7 @@ public class SettingsAssistant {
 		}
 	}
 	
-	static int calculateDivisionUniwueTaskCount(int min, int max) {
+	static int calculateDivisionUniqueTaskCount(int min, int max) {
 		if(max < 10) {
 			return (((max - min+1) * 10) - (max - min +1))/2;
 		} else {
